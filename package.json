@@ -1,4 +1,13 @@
 {
-  "api_token": "bb234abd1da753bc32e45ef9798a96e3b8816128",
-  "base_url": "https://api.pipedrive.com/v1"
+  "name": "lp-colabmais",
+  "version": "1.0.0",
+  "description": "Landing Page Colab+",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
 }
